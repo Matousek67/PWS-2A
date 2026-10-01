@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Město v noci</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="page">
+        <h1><span class="design-square" aria-hidden="true"></span>Město v noci</h1>
+        <h2>Fotografování při slabém světle</h2>
+        <p class="nocni-fotografie">Noční fotografie potřebuje trpělivost. Světla je málo, takže fotoaparát musí mít delší čas na zachycení scény.</p>
+        <img src="premium_photo-1669927131902-a64115445f0f.avif" alt="Město v noci">
+        <p class="fotografie">Fotografie je psaní světlem. V noci ho musíš hledat.</p>
+        <p class="stativ">Použijte stativ a samospoušť. I malý pohyb ruky způsobí rozmazaný snímek.</p>
+        <details class="more-info">
+            <summary>Doporučené nastavení</summary>
+            <p>Clona f/8, čas 10 sekund, ISO 100. Ostřete ručně na nejbližší světlo.</p>
+        </details>
+        <footer>Fotokroužek, lekce 4</footer>
+    </main>
+</body>
+
+</html>
