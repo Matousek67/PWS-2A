@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #1e304f;
+    color: #edf0f6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.page {
+    background: #1e304f;
+    margin: 0 auto;
+    min-height: 1222px;
+    padding: 65px 36px 40px;
+    width: min(824px, 100%);
+}
+
+h1 {
+    align-items: center;
+    color: #f8edc8;
+    display: flex;
+    font-size: 44px;
+    line-height: 51px;
+    margin: 0 0 28px;
+}
+
+.design-square {
+    background: #f8edc8;
+    flex: 0 0 12px;
+    height: 51px;
+    margin-right: 18px;
+}
+
+h2 {
+    color: #aebfdf;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 27px;
+    margin: 0 0 19px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.nocni-fotografie {
+    margin: 0;
+}
+
+img {
+    border: 2px solid #f8edc8;
+    display: block;
+    height: 382px;
+    margin: 20px 0 28px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.fotografie {
+    background: #394f7a;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 28px;
+    margin: 0 0 26px;
+    padding: 20px 24px;
+}
+
+.stativ {
+    margin: 0 0 17px;
+}
+
+.more-info {
+    border: 1px solid #aebfdf;
+    margin: 0;
+    padding: 12px;
+    position: relative;
+}
+
+.more-info summary {
+    color: #f8edc8;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 24px;
+    list-style: none;
+}
+
+.more-info summary::-webkit-details-marker {
+    display: none;
+}
+
+.more-info summary::before {
+    content: "▶";
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 6px;
+}
+
+.more-info[open] summary::before {
+    content: "▼";
+}
+
+.more-info[open] {
+    min-height: 114px;
+}
+
+.more-info p {
+    margin: 15px 0 19px;
+}
+
+.more-info::after {
+    background: #aebfdf;
+    content: "";
+    height: 1px;
+    left: -1px;
+    position: absolute;
+    top: calc(100% + 10px);
+    width: calc(100% + 2px);
+}
+
+footer {
+    color: #aebfdf;
+    font-size: 14px;
+    margin-top: 19px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .page {
+        min-height: 100vh;
+        padding: 42px 22px 36px;
+    }
+
+    h1 {
+        font-size: clamp(32px, 9vw, 44px);
+    }
+
+    img {
+        aspect-ratio: 2 / 1;
+        height: auto;
+    }
+}
